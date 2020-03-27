@@ -1,0 +1,12 @@
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+.aboutMe{
+  text-align: center;
+}
+
+.projectDiv{
+  text-align: center;
+}
