@@ -1,0 +1,120 @@
+
+.AboutMe{
+
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+}
+
+.title {
+    overflow: hidden;
+    text-align: center;
+    font-size: 350%;
+    font-weight: bold;
+  }
+.title:before,
+.title:after {
+    background-color: #000;
+    content: "";
+    display: inline-block;
+    height: 5px;
+    position: relative;
+    vertical-align: middle;
+    width: 5%;
+  }
+.title:before {
+    right: 0.5em;
+    margin-left: -50%;
+  }
+.title:after {
+    left: 0.5em;
+    margin-right: -50%;
+  }
+
+  .contentFlex{
+      display:flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      align-items: center;
+      padding: 10px;
+      border: 2px solid blue;
+  }
+
+  .profilePic{
+    position: relative;
+    float: right;
+    width: 350px;
+    height: 500px;
+    vertical-align: middle;
+    padding: 10px;
+  }
+
+  .subtitle{
+      font-size: xx-large;
+  }
+
+  .profileLink{
+    width: 150px;
+    height: 150px;
+    margin: 30px;
+
+  }
+
+  .linkPic{
+      width: 100%;
+      height: 100%;
+  }
+
+  .resumeButton{
+      margin: 30px;
+      height: 75px;
+      width: 200px;
+  }
+
+  .bio{
+      text-align: center;
+      font-size: 24px;
+      font-weight: 500;
+      padding: 10px;
+      max-width: 500px;
+  }
+
+  .moreMe{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  @media screen and (max-width:900px){
+    .AboutMe{
+        border: 2px solid black;
+    }
+
+    .contentFlex{
+        flex-direction: column-reverse;
+    }
+    @media screen and (max-width:750px){
+
+        .profileLink{
+            margin: 0px;
+            border: 1px solid black;
+        
+          }
+
+          .resumeButton{
+            width: 75px;
+            margin: 0px;
+        }
+
+
+        .moreMe{
+            justify-content: space-evenly;
+          }
+
+        }
+
+  }
