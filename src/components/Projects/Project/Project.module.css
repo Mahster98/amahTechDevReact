@@ -1,0 +1,76 @@
+.Project {
+    display: inline-block;
+    padding: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    border: 3px solid black;
+}
+/* Desktop */
+.title {
+    font-size: xx-large;
+    font-weight: bold;
+    margin: 15px;
+}
+.img {
+    position: relative;
+    float: left;
+    max-width: 500px;
+    max-height: 400px;
+    padding: 10px;
+    vertical-align: middle;
+
+}
+.contentFlexbox{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding:10px;
+}
+.textDiv{
+    padding:10px;
+    flex-shrink: 1;
+}
+.date{
+    text-align: left;
+}
+.techText {
+    text-align: left;
+}
+.projectDescription {
+    text-align: left;
+}
+
+
+/* Mobile */
+@media screen and (max-width:900px) {
+    
+    .Project {
+        justify-content: center;
+        padding: 20px;
+        position: relative;
+        margin: 10px;
+    }
+    .title {
+        font-size: xx-large;
+        font-weight: bold;
+    } 
+    .img {
+        width:400px;
+        height:250px;
+    }
+    .contentFlexbox{
+        display:flex;
+        width: 400px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .textDiv {
+        max-width: 300px;
+    }
+
+}

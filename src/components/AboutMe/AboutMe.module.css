@@ -8,32 +8,6 @@
     padding: 10px;
     margin: 10px;
 }
-
-.title {
-    overflow: hidden;
-    text-align: center;
-    font-size: 350%;
-    font-weight: bold;
-  }
-.title:before,
-.title:after {
-    background-color: #000;
-    content: "";
-    display: inline-block;
-    height: 5px;
-    position: relative;
-    vertical-align: middle;
-    width: 5%;
-  }
-.title:before {
-    right: 0.5em;
-    margin-left: -50%;
-  }
-.title:after {
-    left: 0.5em;
-    margin-right: -50%;
-  }
-
   .contentFlex{
       display:flex;
       flex-direction: row;
