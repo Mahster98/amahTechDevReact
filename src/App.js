@@ -1,5 +1,6 @@
 import React from 'react';
 import classes from "./App.module.css"
+import Landing from "./components/Landing/Landing"
 import AboutMe from './components/AboutMe/AboutMe';
 import Projects from './components/Projects/Projects';
 import Experience from "./components/Experience/Experience"
@@ -7,7 +8,12 @@ import Experience from "./components/Experience/Experience"
 
 function App() {
   return (
-    <div className="App">
+    <div className={classes.App}>
+      
+    <div className={classes.landing}>
+      <Landing />
+    </div>
+
       <div className={classes.aboutMe}>
       <h1 className={classes.title}>About Me</h1>
         <AboutMe />
