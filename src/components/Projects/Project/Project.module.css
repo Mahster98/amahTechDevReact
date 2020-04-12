@@ -6,7 +6,7 @@
     margin-top: 10px;
     margin-bottom: 10px;
     position: relative;
-    border: 3px solid black;
+    border: 3px solid #2B4162;
 }
 /* Desktop */
 .title {
@@ -36,6 +36,8 @@
 }
 .date{
     text-align: left;
+    color: #385F71;
+    font-weight: bold;
 }
 .techText {
     text-align: left;

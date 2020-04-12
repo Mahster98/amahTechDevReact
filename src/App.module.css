@@ -1,20 +1,25 @@
 .App {
   display: flex;
   flex-direction: column;
-  margin-top: -20px
+  margin-top: -20px;
+  
 
 }
 
 .aboutMe{
   text-align: center;
+  background-color: #F4FDFF;
 }
 
 .projectDiv{
   text-align: center;
+  background-color:  #EDFBFF;
+  
 }
 
 .experienceDiv{
   text-align: center;
+  background-color: #F4FDFF;
 }
 
 .title {
