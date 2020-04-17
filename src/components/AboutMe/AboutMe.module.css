@@ -42,13 +42,6 @@
       height: 100%;
   }
 
-  .resumeButton{
-      margin: 30px;
-      height: 75px;
-      width: 200px;
-      font-weight: bold;
-      font-size: large;
-  }
 
   .bio{
       text-align: center;
@@ -66,31 +59,42 @@
   }
 
   @media screen and (max-width:900px){
-    .AboutMe{
+    /* .AboutMe{
         border: 2px solid black;
-    }
+    } */
 
     .contentFlex{
         flex-direction: column-reverse;
     }
-    @media screen and (max-width:750px){
-
-        .profileLink{
-            margin: 0px;
-            /* border: 1px solid black; */
-          }
-
-          .resumeButton{
-            width: 75px;
-            margin: 0px;
-            font-size: small;
-        }
-
-
-        .moreMe{
-            justify-content: space-evenly;
-          }
-
-        }
 
   }
+
+  @media screen and (max-width:750px){
+
+    .profileLink{
+        margin: 0px;
+        /* border: 1px solid black; */
+      }
+
+      /* .resumeButton{
+        width: 75px;
+        margin: 0px;
+        font-size: small;
+    } */
+
+
+    .moreMe{
+        justify-content: space-evenly;
+      }
+
+    }
+
+@media screen and (min-width:750px){
+  .resumeButton{
+    margin: 30px;
+    height: 75px;
+    width: 200px;
+    font-weight: bold;
+    font-size: 400px;
+}
+}

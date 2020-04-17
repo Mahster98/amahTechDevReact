@@ -1,4 +1,4 @@
-import aboutMePic from '../img/tempProfilePic.jpg'
+import aboutMePic from '../img/profPic1.jpg'
 
 export default [
         {

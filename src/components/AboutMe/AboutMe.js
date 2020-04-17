@@ -5,6 +5,8 @@ import linkedinPic from '../../data/img/linkedin-logo-icon-3.jpg'
 import AboutMeContent from '../../data/content/AboutMeContent.js'
 import 'animate.css/animate.min.css'
 import ScrollAnimation from 'react-animate-on-scroll'
+import resume from '../../data/content/Alexander_Mah_Resume.pdf'
+import Button from 'react-bootstrap/Button'
 
 
 
@@ -28,7 +30,7 @@ const AboutMe = () => {
         <div className={classes.moreMe}>
         <a href={AboutMeContent[0].linkedin} className={classes.profileLink}><img className={classes.linkPic} src={linkedinPic} alt="Link"/></a>
         <a href={AboutMeContent[0].github} className={classes.profileLink}><img className={classes.linkPic} src={gitPic} alt="Link"/></a>
-        <button className={classes.resumeButton}>Resume</button>
+        <a href={resume} download ><Button variant='primary' size="lg" className={classes.resumeButton}>Resume</Button></a>
         </div>
         </ScrollAnimation>
         

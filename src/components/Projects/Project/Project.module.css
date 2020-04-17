@@ -1,5 +1,8 @@
 .Project {
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding: 20px;
     margin-left: 100px;
     margin-right: 100px;
@@ -51,7 +54,7 @@
 @media screen and (max-width:900px) {
     
     .Project {
-        justify-content: center;
+        display: flex;
         padding: 20px;
         position: relative;
         margin: 10px;

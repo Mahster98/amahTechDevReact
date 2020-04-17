@@ -1,12 +1,14 @@
 .ExperienceItem {
-    display: inline-block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding: 20px;
     margin-left: 100px;
     margin-right: 100px;
     margin-top: 10px;
     margin-bottom: 10px;
     position: relative;
-    border: 3px solid black;
+    border: 3px solid #2B4162;
 }
 /* Desktop */
 .title {
@@ -25,7 +27,7 @@
 }
 .contentFlexbox{
     display:flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     justify-content: center;
     align-items: center;
     padding:10px;
@@ -50,7 +52,7 @@
 @media screen and (max-width:900px) {
     
     .ExperienceItem {
-        justify-content: center;
+        display: flex;
         padding: 20px;
         position: relative;
         margin: 10px;

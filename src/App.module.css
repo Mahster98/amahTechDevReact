@@ -6,27 +6,19 @@
 
 }
 
-.aboutMe{
+.landing, .aboutMe, .projectDiv, .experienceDiv{
   text-align: center;
   background-color: #F4FDFF;
 }
 
-.projectDiv{
-  text-align: center;
-  background-color:  #EDFBFF;
-  
-}
-
-.experienceDiv{
-  text-align: center;
-  background-color: #F4FDFF;
-}
 
 .title {
   overflow: hidden;
   text-align: center;
   font-size: 350%;
   font-weight: bold;
+  margin: 20px;
+  padding: 20px;
 }
 .title:before,
 .title:after {
