@@ -6,11 +6,14 @@
 
 }
 
-.landing, .aboutMe, .projectDiv, .experienceDiv{
+.landing, .aboutMe, .experienceDiv{
   text-align: center;
   background-color: #F4FDFF;
 }
 
+.projectDiv {
+  background-color: #EDFBFF;
+}
 
 .title {
   overflow: hidden;
