@@ -6,7 +6,7 @@ import AboutMeContent from '../../data/content/AboutMeContent.js'
 import 'animate.css/animate.min.css'
 import ScrollAnimation from 'react-animate-on-scroll'
 import resume from '../../data/content/Alexander_Mah_Resume.pdf'
-import Button from 'react-bootstrap/Button'
+import {Button} from 'react-bootstrap'
 
 
 
