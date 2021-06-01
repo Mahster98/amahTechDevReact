@@ -1,0 +1,15 @@
+.image {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.image:hover {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.cardContent {
+  visibility: hidden;
+}
+
+.cardContent:hover {
+  visibility: visible;
+}

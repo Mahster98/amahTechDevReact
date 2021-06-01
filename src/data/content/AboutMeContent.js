@@ -2,7 +2,7 @@ import aboutMePic from '../img/profPic1.jpg'
 
 export default [
         {
-            "bio":"I am a fourth year Software Engineering Student at the Schulich School of Engineering. My skills include full stack design using technologies such as Angular, React, Apache and Node.js, as well as application development with object-oriented languages like Java and C/C++. To me, programming as a fun and exciting tool that allows me to explore emerging technology and improve our lives in an increasingly dynamic and interconnected world. When I am not infront of a computer, I enjoy spending my free time cooking in the kitchen. I am constantly brainstorming for a project to combine my two passions into one!",
+            "bio":"I am a Software Engineering graduate from the Schulich School of Engineering. I’m skilled in full stack design, from frontend technologies like Angular and React, as well as backend tools like Node.js. Along with scripting languages like JavaScript and Bash, I’m also proficient in object-oriented languages like C/C++, Java and Python. I love computers and appreciate being able to create programs to make my life easier. When I am not in front of a computer, I enjoy spending my free time cooking in the kitchen. Much like with programming, I relish seeing my hard work, attention to detail and effort transformed into something fantastic (and tasty)! ",
             "image": aboutMePic,
             "linkedin": "https://www.linkedin.com/in/alexander-mah/",
             "github": "https://github.com/Mahster98",

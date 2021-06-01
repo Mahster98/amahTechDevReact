@@ -6,7 +6,7 @@ import ScrollAnimation from 'react-animate-on-scroll'
 
 const Landing = () => {
 
-    return <div className={classes.Landing}>
+    return <div className={classes.Landing} id="Home">
         <ScrollAnimation animateIn="fadeIn" animateOut="fadeOut">
         <h1 className={classes.intro}>Hello! I'm</h1>
         </ScrollAnimation>
