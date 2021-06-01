@@ -33,9 +33,9 @@ export default [
   },
   {
     image: Chili_Dumplings,
-    name: "Dumplings with Chilli Oil",
+    name: "Dumplings with Chili Oil",
     notes:
-      "Handwrapped dumplings with homade garlic chilli oil. Served with sweet soy milk",
+      "Handwrapped dumplings with homemade garlic chili oil. Served with sweet soy milk",
   },
   {
     image: Cream_Puff,
@@ -72,7 +72,7 @@ export default [
     image: Ratatouille,
     name: "Ratatouille",
     notes:
-      "Eggplant, zuchinni, carrots, and tomato confit. Plated like the pixar movie!",
+      "Eggplant, zucchini, carrots, and tomato confit. Plated like the pixar movie!",
   },
   {
     image: Ravioli,

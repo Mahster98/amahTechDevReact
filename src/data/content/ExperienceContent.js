@@ -14,7 +14,7 @@ export default [
     experienceTitle: "IBM Intern Hackathon",
     date: ["July 2019"],
     experienceDescription:
-      "During my internship at IBM, I participated in the IBM North America Hackathon. My team won first place in the Canadian division with our concept, the Smart Food Saver (SFS). The SFS utilizes IBM Machine Learning to analyse food waste being produced by small businesses to determine how much food and ingredients should be ordered to minimize waste. It factors in how much the business might sell of certain item using data from the Weather Company. Not only did we work on something that is very close to me (my parents own a café), but I also got to use Machine Learning and AI in a practical application. Also, first place comes with iPad Minis so that didn’t hurt either.",
+      "During my internship at IBM, I participated in the IBM North America Hackathon. My team won first place in the Canadian division with our concept, the Smart Food Saver (SFS). The SFS utilizes IBM Machine Learning to analyse food waste being produced by small businesses to determine how much food and ingredients should be ordered to minimize waste. It factors in how much the business might sell of certain item using data from the Weather Company. Not only did we work on something that is very close to me (my parents owned a café), but I also got to use Machine Learning and AI in a practical application. Also, first place comes with iPad Minis so that didn’t hurt either.",
     image: Hackathon,
   },
   {
