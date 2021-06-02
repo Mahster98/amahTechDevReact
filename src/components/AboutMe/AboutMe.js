@@ -15,7 +15,7 @@ const AboutMe = () => {
         <Row className="text-center justify-content-center align-items-center flex-column-reverse flex-lg-row my-3">
           <Col className="col-lg-6 col-10 justify-content-center my-1">
             <ScrollAnimation animateIn="fadeIn" animateOut="fadeOut">
-              <p className="h4 text-justify" style={{ "line-height": 35 }}>
+              <p className="h5 text-left" style={{ "line-height": 30 }}>
                 {AboutMeContent[0].bio}
               </p>
             </ScrollAnimation>
